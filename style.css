@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    width: 1000px;
+    height: 550px;
+    background-color: blueviolet;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: rgb(0, 0, 0) 0px 5px 15px;
+    position: relative;
+}
+
+.buttons {
+    position: absolute;
+    bottom: 60px;
+    right: 90px;
+    font-weight: 800;
+    transform: scale(3.5);
+    transition: 2s;
+}
+.buttons i {
+    cursor: pointer;
+    margin: 0 5px;
+}
+.buttons i:active {
+    transform: scale(.8);
+}
+
+.slides {
+    display: flex;
+    width: 5000px;
+    /* transition-duration: .7s; */
+    transition: 1s;
+}
+
+.box {
+    width: 1000px;
+    height: 550px;
+    background-color: aqua;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.box1 {
+    background-image: url(img/146410-bmw-nissan_gt_r-nebo-tyuning_avtomobilej-lichnyj_roskoshnyj_avtomobil-3840x2160.jpg);
+}
+.box2 {
+    background-image: url(img/udivitelnoe-izobrazhenie-gor-i-planet.jpg);
+}
+.box3 {
+    background-image: url(img/1654745525_2-celes-club-p-yarkie-igrovie-oboi-krasivie-2.jpg);
+}
+.box4 {
+    background-image: url(img/8dc3aca12c4e485256da9e9217b7c86a.jpg);
+}
+.box5 {
+    background-image: url(img/1654745525_2-celes-club-p-yarkie-igrovie-oboi-krasivie-2.jpg);
+}
